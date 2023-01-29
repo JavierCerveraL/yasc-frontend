@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { BsFillTelephoneInboundFill } from 'react-icons/bs';
 import { CgMenuGridR } from 'react-icons/cg';
 import Link from 'next/link';
-import Logo from './logo';
+import Logo from './Logo';
 
 function Navbar() {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import mypic from '/../public/logoYASC.png';
+import mypic from '../public/logoYASC.png';
 
 const Logo = (props) => {
   return (
