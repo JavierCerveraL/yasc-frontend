@@ -9,7 +9,7 @@ import {
   BsFillCameraFill,
   BsEmojiSmile,
 } from 'react-icons/bs';
-import Logo from './logo';
+import Logo from './Logo';
 function InputBox() {
   const inputRef = useRef(null);
 

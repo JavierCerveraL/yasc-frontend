@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { BsHandThumbsUp, BsShare } from 'react-icons/bs';
 import { BiCommentDetail } from 'react-icons/bi';
-import Logo from './logo';
+import Logo from './Logo';
 
 function Post() {
   return (
