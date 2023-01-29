@@ -9,6 +9,11 @@ function Widgets() {
           <BiCommentDetail className="h-6 cursor-pointer mt-1" />
         </div>
       </div>
+      <div className=" justify-between   rounded-xl p-2 h-auto  bg-stone-700 text-stone-100 mb-5  ">
+        <h2 className="text-lg font-medium">Merida </h2>
+        <h2 className="text-lg">Weather </h2>
+        <div className="flex space-x-2 justify-center text-2xl">30 degrees</div>
+      </div>
     </div>
   );
 }
