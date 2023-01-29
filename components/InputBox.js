@@ -3,7 +3,7 @@ import { db } from '../firebase';
 import Image from 'next/image';
 import React, { useRef } from 'react';
 import { icons } from 'react-icons';
-import { BiHome, BiNews, BiTime, BiMailSend } from 'react-icons/bi';
+
 import {
   BsFillCameraReelsFill,
   BsFillCameraFill,
@@ -41,7 +41,8 @@ function InputBox() {
           /> */}
           <Logo />
           <input
-            className="rounded-full h-12 w-2 bg-slate-100 placeholder:text-xs placeholder:flex placeholder:relative placeholder:bottom-1 flex-grow px-5 focus:outline-none text-stone-700 "
+            className="rounded-full h-12 w-2 bg-slate-100 placeholder:text-xs 
+             placeholder:relative placeholder:bottom-1 flex-grow px-4 focus:outline-none text-stone-700 "
             type="text"
             placeholder="Post something here"
             ref={inputRef}
@@ -59,7 +60,7 @@ function InputBox() {
           <p className="text-xs sm:text-sm">Video</p>
         </div>
         {/* pic */}
-        <div className="inputIcons">
+        <div className="inputIcons focus:outline-none">
           <BsFillCameraFill className="h-7 text-green-400" />
           <p className="text-xs sm:text-sm">Picture</p>
         </div>
