@@ -1,5 +1,5 @@
 import React from 'react';
-import logoYASC from '../public/logoYASC.png';
+import { logoYASC } from '../public/logoYASC.png';
 import Image from 'next/image';
 import { BsFillTelephoneInboundFill } from 'react-icons/bs';
 import { CgMenuGridR } from 'react-icons/cg';
@@ -18,8 +18,7 @@ function Navbar() {
                   width={42}
                   height={100}
                   class="h-9 relative right"
-                  src="/../public/logoYASC.png"
-                  alt="logo"
+                  src={logoYASC}
                 />
               </Link>
 
