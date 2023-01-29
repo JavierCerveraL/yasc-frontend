@@ -2,19 +2,21 @@ import Image from 'next/image';
 import React from 'react';
 import { BsHandThumbsUp, BsShare } from 'react-icons/bs';
 import { BiCommentDetail } from 'react-icons/bi';
+import Logo from './logo';
 
 function Post() {
   return (
     <div className="flex flex-col">
       <div className="p-5 bg-white mt-5 rounded-2xl shadow-sm">
         <div className="flex items-center space-x-2">
-          <Image
+          {/* <Image
             src="/../public/logoYASC.png"
             className=" rounded-full"
             width={40}
             height={40}
-            alt="/"
-          />{' '}
+            alt="/" */}
+          <Logo />
+
           <div>
             <p className="font-medium"> Yasc Portal</p>
             <p className="text-xs text-stone-500 ">29/01/2023, 13:25 </p>

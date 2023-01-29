@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { BsFillTelephoneInboundFill } from 'react-icons/bs';
 import { CgMenuGridR } from 'react-icons/cg';
 import Link from 'next/link';
+import Logo from './logo';
 
 function Navbar() {
   return (
@@ -14,12 +15,13 @@ function Navbar() {
             <div class="px-5  py-2 flex w-full items-center ">
               <h3></h3>
               <Link class="text-3xl font-bold font-heading" href="#">
-                <Image
+                {/* <Image
                   width={42}
                   height={100}
                   class="h-9 relative right"
                   src={logoYASC}
-                />
+                /> */}
+                <Logo />
               </Link>
 
               <h3 className="ml-2 font-medium relative righ  ">YASC PORTAL</h3>
