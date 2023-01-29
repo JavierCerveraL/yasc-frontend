@@ -11,21 +11,19 @@ function Navbar() {
       <div className="">
         <section class=" mx-auto">
           <nav class="flex  bg-lime-100 text-stone-800 w-screen ">
-            <div class="px-5 xl:px-12 py-2 flex w-full items-center ">
+            <div class="px-5  py-2 flex w-full items-center ">
               <h3></h3>
               <Link class="text-3xl font-bold font-heading" href="#">
                 <Image
                   width={42}
                   height={100}
-                  class="h-9 relative right-10"
+                  class="h-9 relative right"
                   src="/../public/logoYASC.png"
                   alt="logo"
                 />
               </Link>
 
-              <h3 className="ml-2 font-medium relative right-10  ">
-                YASC PORTAL
-              </h3>
+              <h3 className="ml-2 font-medium relative righ  ">YASC PORTAL</h3>
             </div>
 
             <Link

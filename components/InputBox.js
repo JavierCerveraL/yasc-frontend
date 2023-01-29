@@ -28,7 +28,7 @@ function InputBox() {
   };
 
   return (
-    <div className="bg-white p-2 rounded-2xl shadow-md text-stone-400 font-medium mt-6">
+    <div className="bg-white p-2 rounded-2xl shadow-md text-stone-400 font-medium">
       <div className="flex space-x-4 p-4 items-center justify-center">
         <form className="flex flex-1">
           <Image
@@ -39,7 +39,7 @@ function InputBox() {
             alt="logo"
           />
           <input
-            className="rounded-full h-12 bg-slate-100 flex-grow px-5 focus:outline-none text-stone-700 "
+            className="rounded-full h-12 w-2 bg-slate-100 placeholder:text-xs placeholder:flex placeholder:relative placeholder:bottom-1 flex-grow px-5 focus:outline-none text-stone-700 "
             type="text"
             placeholder="Post something here"
             ref={inputRef}
